@@ -236,8 +236,7 @@ def append_to_file():
                 #print(stock_symbol)
                 print("Length of stock symbols",len(total_stock_list))
                 append_json_file(allstockinfo[stock_symbol])
-            else:
-                pass
+
     except:
         print('connetion failed')
         pass
