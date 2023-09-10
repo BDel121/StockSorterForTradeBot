@@ -142,7 +142,7 @@ class TradeData():
                                                 #   with plan 0.2 * number of calls
                                                 # 0.2* 4 =0.8 = rounded to 1sec
                                                 # 1 for testing with a data plan and 1728 for full work with a demo plan
-                                                time.sleep(1)
+                                                time.sleep(1728)
                                                 #print(stock_symbol)
                                                 print("(Added )Length of stock symbols",len(total_stock_list),stock_symbol)
                                             else:
@@ -155,7 +155,11 @@ class TradeData():
                         pass
             
                 print("(Pass)Length of stock symbols",stock_symbol,len(total_stock_list))
-                time.sleep(1)
+                #with plan 0.2 * number of calls
+                # 0.2* 4 =0.8 = 1sec
+                # 0.2* 4 =0.8 = rounded to 1sec
+                # 1 for testing with a data plan and 1728 for full work with a demo plan
+                time.sleep(1728)
                 #
             else:
                 pass
